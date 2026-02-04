@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# macOS
+.DS_Store
+
+# Dataset files (keep unified, ignore individual large files)
+dataset/**/*.xlsx
+dataset/ttc-*/TTC*.csv
+dataset/ttc-*/ttc-*-delay-data-*.xlsx
+dataset/ttc-*/ttc-*-delay-data-*.csv
+!dataset/ttc_delays_2017_2025_unified.csv
+!dataset/download_log.json
+!dataset/*/CodeDescriptions.csv

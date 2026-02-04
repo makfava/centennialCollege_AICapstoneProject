@@ -1,0 +1,394 @@
+{
+  "total_datasets": 308,
+  "scraped_at": "2026-01-26T10:56:19.858774",
+  "source_url": "https://open.toronto.ca/catalogue/?formats=CSV",
+  "api_endpoint": "https://ckan0.cf.opendata.inter.prod-toronto.ca/api/3/action",
+  "datasets": [
+    {
+      "title": "Polls conducted by the City",
+      "url": "https://open.toronto.ca/dataset/polls-conducted-by-the-city/",
+      "description": " The City Clerk's Office is responsible for conducting polls on behalf of City\r\ndivisions. Polls are conducted to establish the opinions of residents and\r\nbusinesses on various topics covered by a City by-law (Chp190) .\r\n\r\nPoll engagement is the primary data provided in this set. Daily data updates\r\noccur upon the closing and certification of each poll. The collection of data\r\nstarts from April 1, 2015.\r\n\r\n\r\n\r\n\r\n\r\n",
+      "refresh_rate": "",
+      "last_refreshed": "",
+      "publisher": "City of Toronto",
+      "type": "dataset",
+      "formats": "CSV | JSON | XLSX | XML",
+      "topics": "",
+      "tags": "city polls | opinions | polling",
+      "license": null,
+      "name": "polls-conducted-by-the-city",
+      "dictionary": [
+        {
+          "column_name": "_id",
+          "type": "int",
+          "description": ""
+        },
+        {
+          "column_name": "ADDRESS",
+          "type": "text",
+          "description": "Street address of the application"
+        },
+        {
+          "column_name": "APPLICATION_FOR",
+          "type": "text",
+          "description": "Type of application"
+        },
+        {
+          "column_name": "BALLOTS_BLANK",
+          "type": "text",
+          "description": "Number of ballots received with no mark to identify in \"favour\" or \"opposed\""
+        },
+        {
+          "column_name": "BALLOTS_CAST",
+          "type": "numeric",
+          "description": "Number of ballots returned"
+        },
+        {
+          "column_name": "BALLOTS_DISTRIBUTED",
+          "type": "numeric",
+          "description": "Number of ballots distributed"
+        },
+        {
+          "column_name": "BALLOTS_IN_FAVOUR",
+          "type": "text",
+          "description": "Number of ballots received and marked \"in favour''"
+        },
+        {
+          "column_name": "BALLOTS_NEEDED_TO_PROCEED",
+          "type": "numeric",
+          "description": "The number of ballots needed to proceed based on percentage of return"
+        },
+        {
+          "column_name": "BALLOTS_NEEDED_TO_PROCEED_LBL",
+          "type": "text",
+          "description": "Percentage of returned ballots needed to consider poll valid"
+        },
+        {
+          "column_name": "BALLOTS_OPPOSED",
+          "type": "text",
+          "description": "Number of ballots received and marked \"opposed\""
+        },
+        {
+          "column_name": "BALLOTS_RECEIVED_BY_VOTERS",
+          "type": "numeric",
+          "description": "Number of ballots returned to City Clerk's Office"
+        },
+        {
+          "column_name": "BALLOTS_RETURNED_TO_SENDER",
+          "type": "numeric",
+          "description": "Number of ballot returned by Canada Post as not delivered"
+        },
+        {
+          "column_name": "BALLOTS_SPOILED",
+          "type": "text",
+          "description": "Number of ballots received and were not clearly marked as either \"in favour\" or \"opposed\""
+        },
+        {
+          "column_name": "CLOSE_DATE",
+          "type": "date",
+          "description": "Date the poll has been closed"
+        },
+        {
+          "column_name": "DECLARATIONS_ADDED",
+          "type": "numeric",
+          "description": "Number of individuals added to the poll list after the poll has open"
+        },
+        {
+          "column_name": "FINAL_VOTER_COUNT",
+          "type": "numeric",
+          "description": "Number of total voters on the final poll list"
+        },
+        {
+          "column_name": "MORATORIUM_DATE",
+          "type": "date",
+          "description": "The date to which this poll can be conducted again"
+        },
+        {
+          "column_name": "OPEN_DATE",
+          "type": "date",
+          "description": "Date the poll is open to public"
+        },
+        {
+          "column_name": "PASS_RATE",
+          "type": "text",
+          "description": "Number of returned ballots needed for a positive poll result"
+        },
+        {
+          "column_name": "PASS_RATE_LABEL",
+          "type": "text",
+          "description": "Percentage of returned ballots needed to determine poll result"
+        },
+        {
+          "column_name": "POLL_CD",
+          "type": "text",
+          "description": "Poll Identification Number (Public)"
+        },
+        {
+          "column_name": "POLL_ID",
+          "type": "numeric",
+          "description": "Poll Application Number"
+        },
+        {
+          "column_name": "POLL_RESULT",
+          "type": "text",
+          "description": "Final result of poll"
+        },
+        {
+          "column_name": "POTENTIAL_VOTERS",
+          "type": "numeric",
+          "description": "Number of people residing within poll boundary range"
+        },
+        {
+          "column_name": "RESPONSE_RATE_MET",
+          "type": "text",
+          "description": "The number of ballots returned has met the required response rate"
+        }
+      ],
+      "quality": {
+        "last_modified": "2019-07-23T17:53:27.751321",
+        "created": "2019-07-23T17:53:27.788843",
+        "format": "XLSX",
+        "size": 14190
+      },
+      "resources_detail": [
+        {
+          "name": "Polls Data",
+          "format": "CSV",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/datastore/dump/ea46083d-ac4f-41d1-a16f-3edb0e0f605c",
+          "size": null,
+          "last_modified": "2026-01-26T15:35:12.000867",
+          "created": "2019-07-23T17:53:29.273133",
+          "id": "ea46083d-ac4f-41d1-a16f-3edb0e0f605c"
+        },
+        {
+          "name": "Polls Data.csv",
+          "format": "CSV",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/7bce9bf4-be5c-4261-af01-abfbc3510309/resource/13c405e8-f884-4950-baf8-07e0f7b0e299/download/polls-data.csv",
+          "size": 282530,
+          "last_modified": "2026-01-26T15:35:08.599688",
+          "created": "2022-03-10T20:06:14.363553",
+          "id": "13c405e8-f884-4950-baf8-07e0f7b0e299"
+        },
+        {
+          "name": "Polls Data.xml",
+          "format": "XML",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/7bce9bf4-be5c-4261-af01-abfbc3510309/resource/b73568c3-a322-406d-8fb0-011bd3a26dde/download/polls-data.xml",
+          "size": 1484788,
+          "last_modified": "2026-01-26T15:35:09.725184",
+          "created": "2022-03-10T20:06:15.281012",
+          "id": "b73568c3-a322-406d-8fb0-011bd3a26dde"
+        },
+        {
+          "name": "Polls Data.json",
+          "format": "JSON",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/7bce9bf4-be5c-4261-af01-abfbc3510309/resource/bcb3a8ec-7efe-44b4-8c31-8752610c78b0/download/polls-data.json",
+          "size": 1013319,
+          "last_modified": "2026-01-26T15:35:10.896846",
+          "created": "2022-03-10T20:06:16.003345",
+          "id": "bcb3a8ec-7efe-44b4-8c31-8752610c78b0"
+        },
+        {
+          "name": "polls-data-readme",
+          "format": "XLSX",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/7bce9bf4-be5c-4261-af01-abfbc3510309/resource/c183216d-b756-4cc4-97db-a694bfcadc6b/download/polls-data-readme.xlsx",
+          "size": 14190,
+          "last_modified": "2019-07-23T17:53:27.751321",
+          "created": "2019-07-23T17:53:27.788843",
+          "id": "c183216d-b756-4cc4-97db-a694bfcadc6b"
+        }
+      ]
+    },
+    {
+      "title": "Water Valves",
+      "url": "https://open.toronto.ca/dataset/water-valves/",
+      "description": "This dataset provides pertinent information on the general location of water system valves and valve characteristics (e.g. diameter, type of valve etc.). The data is updated on a continual daily basis. The data is intended to support development and growth by facilitating pre-application discussions and preparation of servicing reports by Developers (and their teams).",
+      "refresh_rate": "",
+      "last_refreshed": "",
+      "publisher": "City of Toronto",
+      "type": "dataset",
+      "formats": "CSV | GEOJSON | GPKG | SHP",
+      "topics": "",
+      "tags": "hydrant",
+      "license": "License not specified",
+      "name": "water-valves",
+      "dictionary": [],
+      "quality": {
+        "last_modified": "2026-01-26T15:26:54.394520",
+        "created": "2025-06-30T20:17:17.904148",
+        "format": "gpkg",
+        "size": 11747328
+      },
+      "resources_detail": [
+        {
+          "name": "Water Valve",
+          "format": "GeoJSON",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/datastore/dump/ecd7b805-4309-4ecd-a82b-5dbf09bc4b51",
+          "size": null,
+          "last_modified": null,
+          "created": "2025-06-30T20:15:22.000773",
+          "id": "ecd7b805-4309-4ecd-a82b-5dbf09bc4b51"
+        },
+        {
+          "name": "Water Valve - 4326.csv",
+          "format": "CSV",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/690dd056-e4f8-42d7-99ec-d3f4b89f8860/resource/434e472f-c3af-4532-bcd8-c5051fc6c2ad/download/water-valve-4326.csv",
+          "size": 8303877,
+          "last_modified": "2026-01-26T15:26:46.753010",
+          "created": "2025-06-30T20:17:11.819096",
+          "id": "434e472f-c3af-4532-bcd8-c5051fc6c2ad"
+        },
+        {
+          "name": "Water Valve - 4326.zip",
+          "format": "SHP",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/690dd056-e4f8-42d7-99ec-d3f4b89f8860/resource/279f4dad-4713-4f54-a8e0-0b1dd476c8aa/download/water-valve-4326.zip",
+          "size": 24850918,
+          "last_modified": "2026-01-26T15:26:47.910877",
+          "created": "2025-06-30T20:17:12.759938",
+          "id": "279f4dad-4713-4f54-a8e0-0b1dd476c8aa"
+        },
+        {
+          "name": "Water Valve - 4326.gpkg",
+          "format": "gpkg",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/690dd056-e4f8-42d7-99ec-d3f4b89f8860/resource/4d884428-a68d-47f6-ae8f-ee840f21ea3b/download/water-valve-4326.gpkg",
+          "size": 11747328,
+          "last_modified": "2026-01-26T15:26:49.111634",
+          "created": "2025-06-30T20:17:13.718449",
+          "id": "4d884428-a68d-47f6-ae8f-ee840f21ea3b"
+        },
+        {
+          "name": "Water Valve - 4326.geojson",
+          "format": "GeoJSON",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/690dd056-e4f8-42d7-99ec-d3f4b89f8860/resource/674668ac-3022-406d-afb0-28a89576ad3b/download/water-valve-4326.geojson",
+          "size": 19121416,
+          "last_modified": "2026-01-26T15:26:50.344925",
+          "created": "2025-06-30T20:17:14.644738",
+          "id": "674668ac-3022-406d-afb0-28a89576ad3b"
+        },
+        {
+          "name": "Water Valve - 2952.csv",
+          "format": "CSV",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/690dd056-e4f8-42d7-99ec-d3f4b89f8860/resource/64442ac2-6619-40ea-b984-2efb1826903f/download/water-valve-2952.csv",
+          "size": 8412532,
+          "last_modified": "2026-01-26T15:26:51.596825",
+          "created": "2025-06-30T20:17:15.809255",
+          "id": "64442ac2-6619-40ea-b984-2efb1826903f"
+        },
+        {
+          "name": "Water Valve - 2952.zip",
+          "format": "SHP",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/690dd056-e4f8-42d7-99ec-d3f4b89f8860/resource/bd0d9607-258c-4646-86ce-38ea70063453/download/water-valve-2952.zip",
+          "size": 24851206,
+          "last_modified": "2026-01-26T15:26:52.942321",
+          "created": "2025-06-30T20:17:16.824923",
+          "id": "bd0d9607-258c-4646-86ce-38ea70063453"
+        },
+        {
+          "name": "Water Valve - 2952.gpkg",
+          "format": "gpkg",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/690dd056-e4f8-42d7-99ec-d3f4b89f8860/resource/fb471509-d545-4f52-a755-9918b6eb7924/download/water-valve-2952.gpkg",
+          "size": 11747328,
+          "last_modified": "2026-01-26T15:26:54.394520",
+          "created": "2025-06-30T20:17:17.904148",
+          "id": "fb471509-d545-4f52-a755-9918b6eb7924"
+        }
+      ]
+    },
+    {
+      "title": "Water Hydrants",
+      "url": "https://open.toronto.ca/dataset/water-hydrants/",
+      "description": "This dataset provides pertinent information on the general location of water system hydrants, including their ownership and management groups. The data is updated on a continual daily basis. The data is intended to support development and growth by facilitating pre-application discussions and preparation of servicing reports by Developers (and their teams).",
+      "refresh_rate": "",
+      "last_refreshed": "",
+      "publisher": "City of Toronto",
+      "type": "dataset",
+      "formats": "CSV | GEOJSON | GPKG | SHP",
+      "topics": "",
+      "tags": "hydrant",
+      "license": "License not specified",
+      "name": "water-hydrants",
+      "dictionary": [],
+      "quality": {
+        "last_modified": "2026-01-26T15:25:26.680040",
+        "created": "2025-06-30T20:19:02.958782",
+        "format": "gpkg",
+        "size": 8224768
+      },
+      "resources_detail": [
+        {
+          "name": "Water Hydrant",
+          "format": "GeoJSON",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/datastore/dump/1331a165-0605-44f1-b1c1-ce8e814c3e1e",
+          "size": null,
+          "last_modified": null,
+          "created": "2025-06-30T20:17:22.991460",
+          "id": "1331a165-0605-44f1-b1c1-ce8e814c3e1e"
+        },
+        {
+          "name": "Water Hydrant - 4326.csv",
+          "format": "CSV",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/27541197-21d8-4577-94ea-a391c44f68a6/resource/94f95439-3432-4725-a514-8624f367015c/download/water-hydrant-4326.csv",
+          "size": 6099704,
+          "last_modified": "2026-01-26T15:25:18.698264",
+          "created": "2025-06-30T20:18:56.667786",
+          "id": "94f95439-3432-4725-a514-8624f367015c"
+        },
+        {
+          "name": "Water Hydrant - 4326.zip",
+          "format": "SHP",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/27541197-21d8-4577-94ea-a391c44f68a6/resource/eea21b87-ed1f-4f00-b665-16ba1291cc92/download/water-hydrant-4326.zip",
+          "size": 17442240,
+          "last_modified": "2026-01-26T15:25:19.954216",
+          "created": "2025-06-30T20:18:57.561153",
+          "id": "eea21b87-ed1f-4f00-b665-16ba1291cc92"
+        },
+        {
+          "name": "Water Hydrant - 4326.gpkg",
+          "format": "gpkg",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/27541197-21d8-4577-94ea-a391c44f68a6/resource/7b493dbe-ab5e-4b46-a207-5e2c307bccec/download/water-hydrant-4326.gpkg",
+          "size": 8187904,
+          "last_modified": "2026-01-26T15:25:21.170050",
+          "created": "2025-06-30T20:18:58.632257",
+          "id": "7b493dbe-ab5e-4b46-a207-5e2c307bccec"
+        },
+        {
+          "name": "Water Hydrant - 4326.geojson",
+          "format": "GeoJSON",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/27541197-21d8-4577-94ea-a391c44f68a6/resource/e5a2b699-7e77-4531-8dcc-3f6fed6767b0/download/water-hydrant-4326.geojson",
+          "size": 13158894,
+          "last_modified": "2026-01-26T15:25:22.566783",
+          "created": "2025-06-30T20:18:59.600470",
+          "id": "e5a2b699-7e77-4531-8dcc-3f6fed6767b0"
+        },
+        {
+          "name": "Water Hydrant - 2952.csv",
+          "format": "CSV",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/27541197-21d8-4577-94ea-a391c44f68a6/resource/713a62a2-bac0-40e4-ae7f-996e10b8577c/download/water-hydrant-2952.csv",
+          "size": 6164378,
+          "last_modified": "2026-01-26T15:25:23.798188",
+          "created": "2025-06-30T20:19:00.757934",
+          "id": "713a62a2-bac0-40e4-ae7f-996e10b8577c"
+        },
+        {
+          "name": "Water Hydrant - 2952.zip",
+          "format": "SHP",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/27541197-21d8-4577-94ea-a391c44f68a6/resource/b8536a7f-a3e4-4b3e-8221-bf581419fcc5/download/water-hydrant-2952.zip",
+          "size": 17442528,
+          "last_modified": "2026-01-26T15:25:25.263344",
+          "created": "2025-06-30T20:19:01.818485",
+          "id": "b8536a7f-a3e4-4b3e-8221-bf581419fcc5"
+        },
+        {
+          "name": "Water Hydrant - 2952.gpkg",
+          "format": "gpkg",
+          "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/27541197-21d8-4577-94ea-a391c44f68a6/resource/128d1ae3-13fd-4913-94f2-6404ce1e302b/download/water-hydrant-2952.gpkg",
+          "size": 8224768,
+          "last_modified": "2026-01-26T15:25:26.680040",
+          "created": "2025-06-30T20:19:02.958782",
+          "id": "128d1ae3-13fd-4913-94f2-6404ce1e302b"
+        }
+      ]
+    }
+  ],
+  "test_mode": true,
+  "enhanced_at": "2026-01-26T11:00:09.962739"
+}
